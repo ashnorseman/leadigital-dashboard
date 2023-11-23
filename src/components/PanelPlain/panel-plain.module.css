@@ -1,0 +1,7 @@
+.section {
+  background: linear-gradient(#052E7F, #001337);
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="34px" viewBox="0 0 240 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 7</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#1F4CA2" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#1F4CA2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="综合看板-2稿" transform="translate(-29.000000, -159.000000)">
+            <g id="编组-3备份" transform="translate(28.000000, 153.000000)">
+                <g id="编组-7" transform="translate(1.000000, 6.000000)">
+                    <polygon id="矩形" fill="url(#linearGradient-1)" opacity="0.595679874" points="9.29032258 0 240 0 222.115529 34 9.29032258 34"></polygon>
+                    <rect id="矩形备份" fill="#1F4CA2" opacity="0.595679874" x="0" y="0" width="6.19354839" height="34"></rect>
+                    <ellipse id="椭圆形" fill="#FFFFFF" cx="25.5483871" cy="17" rx="3.87096774" ry="3.4"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

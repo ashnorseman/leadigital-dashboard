@@ -1,0 +1,14 @@
+
+.header {
+  background: url(./header-bg.svg) left center no-repeat;
+  display: flex;
+  align-items: center;
+  height: 34px;
+  margin-top: 6px;
+  padding-left: 40px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 400;
+}

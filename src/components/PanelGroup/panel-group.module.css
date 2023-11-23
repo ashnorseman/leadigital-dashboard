@@ -1,0 +1,5 @@
+.section {
+  display: flex;
+  grid-gap: var(--grid-gap);
+  flex: 1;
+}

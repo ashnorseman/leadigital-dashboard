@@ -1,0 +1,26 @@
+
+.header {
+  background: url(./header.png) center 18px no-repeat;
+  height: 152px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 67px;
+  top: 0;
+}
+
+.title {
+  color: var(--title-color);
+  font-size: 40px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.time {
+  font-size: 24px;
+  position: absolute;
+  right: 39px;
+  top: 52px;
+}

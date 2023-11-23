@@ -1,0 +1,14 @@
+.container {
+  background: var(--page-bg);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  transform-origin: 0 0;
+  width: 100vw;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
