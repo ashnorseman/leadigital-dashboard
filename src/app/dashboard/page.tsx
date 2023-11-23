@@ -1,9 +1,9 @@
 import Container from "@/components/Container";
 import Header from "@/components/Header";
-import PanelCorner from "@/components/PanelCorner";
-import PanelGroup from "@/components/PanelGroup";
-import PanelHeader from "@/components/PanelHeader";
-import PanelPlain from "@/components/PanelPlain";
+import PanelCorner from "@/components/Panel/PanelCorner";
+import PanelGroup from "@/components/Panel/PanelGroup";
+import PanelHeader from "@/components/Panel/PanelHeader";
+import PanelPlain from "@/components/Panel/PanelPlain";
 import styles from "./page.module.css";
 
 export default function Dashboard() {
