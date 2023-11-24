@@ -5,6 +5,7 @@ import PanelGroup from "@/components/Panel/PanelGroup";
 import PanelHeader from "@/components/Panel/PanelHeader";
 import SectionDelivery from "./SectionDelivery";
 import SectionEfficiency from "./SectionEfficiency";
+import SectionGreen from "./SectionGreen";
 import SectionQuality from "./SectionQuality";
 import SummaryCapacity from "./SummaryCapacity";
 import SummaryOnlineOrder from "./SummaryOutlineOrder";
@@ -146,18 +147,7 @@ export default function Dashboard() {
 
           <PanelGroup direction="column"
                       size={579}>
-            <PanelCorner size={620}>
-              <PanelGroup direction="column">
-                <PanelHeader title="绿色制造" />
-
-                <h5 className={`${styles.sectionHeader} section-title`}>设备管理</h5>
-
-                <div className={styles.sectionHeader}>
-                  <h5 className="section-title">设备利用率</h5>
-                </div>
-              </PanelGroup>
-            </PanelCorner>
-
+            <SectionGreen />
             <SectionEfficiency />
           </PanelGroup>
         </PanelGroup>

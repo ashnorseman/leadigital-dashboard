@@ -15,7 +15,6 @@ export default function SectionDelivery() {
     xAxis: {
       data: ["8/26", "8/27", "8/28", "8/29", "8/30", "8/31", "9/1"],
     },
-    yAxis: {},
     series: [
       {
         data: [120, 200, 150, 80, 70, 110, 130],

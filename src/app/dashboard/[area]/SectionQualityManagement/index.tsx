@@ -7,11 +7,41 @@ import PanelGroup from "@/components/Panel/PanelGroup";
 import PanelHeader from "@/components/Panel/PanelHeader";
 
 export default function SectionQualityManagement() {
-  const chartException: echarts.EChartOption = {
+  const passChart: echarts.EChartOption = {
+    xAxis: {
+      data: new Array(6).fill(0).map((_, index) => `工序${index + 1}`),
+    },
+    series: [
+      {
+        data: [150, 230, 224, 218, 135, 147],
+        type: "line",
+        showSymbol: false,
+        smooth: true,
+        lineStyle: {
+          color: "#46E081",
+          width: 3,
+        },
+        areaStyle: {
+          opacity: 0.8,
+          color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+            {
+              offset: 0,
+              color: "rgba(71, 255, 144, .42)"
+            },
+            {
+              offset: 1,
+              color: "rgba(255, 255, 255, 0)"
+            }
+          ])
+        },
+      },
+    ],
+  };
+
+  const exceptionChart: echarts.EChartOption = {
     xAxis: {
       data: ["8/26", "8/27", "8/28", "8/29", "8/30", "8/31", "9/1"],
     },
-    yAxis: {},
     series: [
       {
         data: [120, 200, 150, 80, 70, 110, 130],
@@ -44,13 +74,15 @@ export default function SectionQualityManagement() {
           <PanelGroup direction="column"
                       gap={12}>
             <h5 className="section-title">过程检验合格率（按工序）</h5>
+
+            <Chart options={passChart} />
           </PanelGroup>
 
           <PanelGroup direction="column"
                       gap={12}>
             <h5 className="section-title">生产异常管理</h5>
 
-            <Chart options={chartException} />
+            <Chart options={exceptionChart} />
           </PanelGroup>
         </PanelGroup>
 
