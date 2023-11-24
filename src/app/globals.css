@@ -30,3 +30,26 @@ a {
 .text-secondary {
   opacity: .65;
 }
+
+.section-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.data-table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+
+.data-table th {
+  background: #10237F;
+  font-weight: 400;
+  height: 44px;
+  opacity: .6;
+}
+
+.data-table td {
+  border-bottom: 1px solid rgba(255, 255, 255, .35);
+  height: 38px;
+}
