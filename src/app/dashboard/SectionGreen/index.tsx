@@ -2,6 +2,7 @@
 
 import * as echarts from "echarts";
 import Chart from "@/components/Chart";
+import DataDigitCard from "@/components/Data/DataDigitCard";
 import PanelCorner from "@/components/Panel/PanelCorner";
 import PanelGroup from "@/components/Panel/PanelGroup";
 import PanelHeader from "@/components/Panel/PanelHeader";
@@ -76,6 +77,29 @@ export default function SectionGreen() {
         <PanelHeader title="绿色制造" />
 
         <h5 className="section-title">设备管理</h5>
+
+        <PanelGroup direction="row"
+                    size={82}>
+          <DataDigitCard className={styles.cardRunning}
+                         label="运行"
+                         unit="台"
+                         value={50} />
+
+          <DataDigitCard className={styles.cardIdle}
+                         label="待机"
+                         unit="台"
+                         value={5} />
+
+          <DataDigitCard className={styles.cardMaintenance}
+                         label="保养"
+                         unit="台"
+                         value={2} />
+
+          <DataDigitCard className={styles.cardFixing}
+                         label="维修"
+                         unit="台"
+                         value={2} />
+        </PanelGroup>
 
         <h5 className="section-title">设备利用率</h5>
 

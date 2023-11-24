@@ -1,0 +1,47 @@
+.card {
+  border: 1px solid var(--card-color);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 82px;
+  position: relative;
+}
+
+.corner {
+  background: linear-gradient(
+    to bottom left,
+    var(--card-color),
+    var(--card-color) calc(50% - 2px),
+    var(--page-bg) 0,
+    var(--page-bg) calc(50% - 1px),
+    var(--card-color) 0,
+    var(--card-color) 50%,
+    var(--page-bg) 0
+  );
+  height: 20%;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 20%;
+}
+
+.cardNumber {
+  display: flex;
+  align-items: last baseline;
+  flex: 1;
+  padding: 0 16px;
+}
+
+.value {
+  color: var(--card-color);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.label {
+  background: var(--card-color);
+  line-height: 26px;
+  padding: 0 16px;
+}

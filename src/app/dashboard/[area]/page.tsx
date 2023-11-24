@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import PanelCorner from "@/components/Panel/PanelCorner";
 import PanelGroup from "@/components/Panel/PanelGroup";
 import PanelHeader from "@/components/Panel/PanelHeader";
+import SectionAssets from "./SectionAssets";
 import SectionProduction from "./SectionProduction";
 import SectionQualityManagement from "./SectionQualityManagement";
 import SummaryMaterial from "./SummaryMaterial";
@@ -77,60 +78,7 @@ export default function Dashboard() {
             </PanelGroup>
           </PanelCorner>
 
-          <PanelCorner>
-            <PanelGroup direction="column"
-                        gap={12}>
-              <PanelHeader title="设备管理" />
-
-              <table className="data-table">
-                <thead>
-                  <tr>
-                    <th>工作令号</th>
-                    <th>设备</th>
-                    <th>故障描述</th>
-                    <th>报修时间</th>
-                    <th>完成时间</th>
-                    <th>当前状态</th>
-                  </tr>
-                </thead>
-
-                <tbody>
-                  <tr>
-                    <td>P2200665</td>
-                    <td>P2200665</td>
-                    <td>23</td>
-                    <td>123</td>
-                    <td>2023/11/22</td>
-                    <td>已完成</td>
-                  </tr>
-                  <tr>
-                    <td>P2200665</td>
-                    <td>P2200665</td>
-                    <td>23</td>
-                    <td>123</td>
-                    <td>2023/11/22</td>
-                    <td>已完成</td>
-                  </tr>
-                  <tr>
-                    <td>P2200665</td>
-                    <td>P2200665</td>
-                    <td>23</td>
-                    <td>123</td>
-                    <td>2023/11/22</td>
-                    <td>已完成</td>
-                  </tr>
-                  <tr>
-                    <td>P2200665</td>
-                    <td>P2200665</td>
-                    <td>23</td>
-                    <td>123</td>
-                    <td>2023/11/22</td>
-                    <td>已完成</td>
-                  </tr>
-                </tbody>
-              </table>
-            </PanelGroup>
-          </PanelCorner>
+          <SectionAssets />
         </PanelGroup>
 
         <PanelGroup direction="column">

@@ -5,6 +5,7 @@ import PanelGroup from "@/components/Panel/PanelGroup";
 import PanelHeader from "@/components/Panel/PanelHeader";
 import SectionDelivery from "./SectionDelivery";
 import SectionEfficiency from "./SectionEfficiency";
+import SectionFloorPlan from "./SectionFloorPlan";
 import SectionGreen from "./SectionGreen";
 import SectionQuality from "./SectionQuality";
 import SummaryCapacity from "./SummaryCapacity";
@@ -36,7 +37,7 @@ export default function Dashboard() {
           </PanelGroup>
 
           <PanelGroup direction="column">
-            <PanelCorner size={620}>1</PanelCorner>
+            <SectionFloorPlan />
 
             <PanelCorner>
               <PanelGroup direction="column">

@@ -1,0 +1,46 @@
+.imageContainer {
+  height: 597px;
+  margin: auto;
+  position: relative;
+  width: 880px;
+}
+
+.link {
+  background: linear-gradient(#60D8FF, #1E8FF6);
+  border: 2px solid #FFF;
+  border-radius: 4px;
+  display: block;
+  line-height: 40px;
+  padding: 0 15px;
+  white-space: nowrap;
+}
+
+.linkLab {
+  position: absolute;
+  left: 504px;
+  top: 8px;
+}
+
+.linkAssembly {
+  position: absolute;
+  left: 743px;
+  top: 178px;
+}
+
+.linkCoil {
+  position: absolute;
+  left: 337px;
+  top: 230px;
+}
+
+.linkBody {
+  position: absolute;
+  left: 623px;
+  top: 291px;
+}
+
+.linkCore {
+  position: absolute;
+  left: 374px;
+  top: 400px;
+}

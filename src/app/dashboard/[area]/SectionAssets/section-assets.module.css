@@ -14,6 +14,10 @@
   --card-color: #FF5064;
 }
 
-.usageChart {
-  margin-top: -45px;
+.cardChecking {
+  --card-color: #FF7BF4;
+}
+
+.cardOee {
+  --card-color: #5EBE43;
 }
