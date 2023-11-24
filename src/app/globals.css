@@ -26,3 +26,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.text-secondary {
+  opacity: .65;
+}

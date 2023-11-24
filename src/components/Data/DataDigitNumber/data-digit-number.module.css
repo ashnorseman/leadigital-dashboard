@@ -1,0 +1,10 @@
+.number {
+  color: var(--number-color);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.unit {
+  margin-left: 6px;
+}

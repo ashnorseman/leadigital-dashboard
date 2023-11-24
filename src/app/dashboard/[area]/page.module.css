@@ -2,3 +2,9 @@
   flex: 1;
   padding: 0 24px 24px;
 }
+
+.summaryDigits {
+  --number-color: #3DDDFF;
+
+  margin-top: 12px;
+}

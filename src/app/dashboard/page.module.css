@@ -2,3 +2,25 @@
   flex: 1;
   padding: 0 24px 24px;
 }
+
+.summaryOutputValue {
+  --number-color: #FFA127;
+}
+
+.summaryOutput {
+  --number-color: #55F8FF;
+}
+
+.summaryCapacity {
+  --number-color: #FF7BF4;
+}
+
+.summaryOnlineOrder {
+  --number-color: #2589FF;
+}
+
+.summaryDelivery {
+  --number-color: #3DDDFF;
+
+  margin-top: 12px;
+}

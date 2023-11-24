@@ -1,5 +1,7 @@
 import Container from "@/components/Container";
 import Header from "@/components/Header";
+import DataDigitItem from "@/components/Data/DataDigitItem";
+import DataDigitNumber from "@/components/Data/DataDigitNumber";
 import PanelCorner from "@/components/Panel/PanelCorner";
 import PanelGroup from "@/components/Panel/PanelGroup";
 import PanelHeader from "@/components/Panel/PanelHeader";
@@ -18,13 +20,51 @@ export default function Dashboard() {
           <PanelCorner size={415}>
             <PanelHeader title="生产管理" />
 
-            <PanelPlain size={102}>1</PanelPlain>
+            <PanelPlain className={styles.summaryDigits}
+                        size={102}>
+              <PanelGroup direction="row"
+                          gap={0}>
+                <DataDigitItem>
+                  <span className="text-secondary">当日订单</span>
+                  <DataDigitNumber>8</DataDigitNumber>
+                </DataDigitItem>
+
+                <DataDigitItem>
+                  <span className="text-secondary">当日派工</span>
+                  <DataDigitNumber>20</DataDigitNumber>
+                </DataDigitItem>
+
+                <DataDigitItem>
+                  <span className="text-secondary">按时完成率</span>
+                  <DataDigitNumber unit="%">100</DataDigitNumber>
+                </DataDigitItem>
+              </PanelGroup>
+            </PanelPlain>
           </PanelCorner>
 
           <PanelCorner size={373}>
             <PanelHeader title="物料管理" />
 
-            <PanelPlain size={102}>2</PanelPlain>
+            <PanelPlain className={styles.summaryDigits}
+                        size={102}>
+              <PanelGroup direction="row"
+                          gap={0}>
+                <DataDigitItem>
+                  <span className="text-secondary">计划配料批次</span>
+                  <DataDigitNumber>8</DataDigitNumber>
+                </DataDigitItem>
+
+                <DataDigitItem>
+                  <span className="text-secondary">完成配料批次</span>
+                  <DataDigitNumber>20</DataDigitNumber>
+                </DataDigitItem>
+
+                <DataDigitItem>
+                  <span className="text-secondary">配料及时率</span>
+                  <DataDigitNumber unit="%">98</DataDigitNumber>
+                </DataDigitItem>
+              </PanelGroup>
+            </PanelPlain>
           </PanelCorner>
 
           <PanelCorner>
@@ -49,7 +89,31 @@ export default function Dashboard() {
           <PanelCorner>
             <PanelHeader title="人员管理" />
 
-            <PanelPlain size={102}>2</PanelPlain>
+            <PanelPlain className={styles.summaryDigits}
+                        size={102}>
+              <PanelGroup direction="row"
+                          gap={0}>
+                <DataDigitItem>
+                  <span className="text-secondary">总人数</span>
+                  <DataDigitNumber>28</DataDigitNumber>
+                </DataDigitItem>
+
+                <DataDigitItem>
+                  <span className="text-secondary">出勤</span>
+                  <DataDigitNumber>27</DataDigitNumber>
+                </DataDigitItem>
+
+                <DataDigitItem>
+                  <span className="text-secondary">休假</span>
+                  <DataDigitNumber>1</DataDigitNumber>
+                </DataDigitItem>
+
+                <DataDigitItem>
+                  <span className="text-secondary">出勤率</span>
+                  <DataDigitNumber unit="%">98</DataDigitNumber>
+                </DataDigitItem>
+              </PanelGroup>
+            </PanelPlain>
           </PanelCorner>
         </PanelGroup>
       </PanelGroup>
