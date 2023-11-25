@@ -35,8 +35,7 @@
 .value {
   color: var(--card-color);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 38px;
-  font-weight: 700;
+  font-size: var(--digit-size, 38px);
   margin-right: 4px;
 }
 

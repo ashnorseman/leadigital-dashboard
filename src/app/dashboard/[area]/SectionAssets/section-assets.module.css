@@ -1,3 +1,7 @@
+.card {
+  --digit-size: 24px;
+}
+
 .cardRunning {
   --card-color: #00CFD8;
 }

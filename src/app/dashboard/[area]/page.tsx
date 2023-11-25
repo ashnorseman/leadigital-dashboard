@@ -17,8 +17,7 @@ export default function Dashboard() {
                width={2150}>
       <PanelGroup className={styles.board}
                   direction="row">
-        <PanelGroup direction="column"
-                    size={549}>
+        <PanelGroup direction="column">
           <SectionProduction />
           <SectionMaterial />
           <SectionAssets />
@@ -30,7 +29,8 @@ export default function Dashboard() {
           <SectionAreaMap />
         </PanelGroup>
 
-        <PanelGroup direction="column">
+        <PanelGroup direction="column"
+                    size={549}>
           <SectionQualityManagement />
           <SectionStaff />
         </PanelGroup>

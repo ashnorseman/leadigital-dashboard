@@ -11,33 +11,34 @@ export default function SectionAssets() {
                   gap={12}>
         <PanelHeader title="设备管理" />
 
-        <PanelGroup direction="row">
-          <DataDigitCard className={styles.cardRunning}
+        <PanelGroup direction="row"
+                    gap={12}>
+          <DataDigitCard className={`${styles.card} ${styles.cardRunning}`}
                          label="运行"
                          unit="台"
                          value={50} />
 
-          <DataDigitCard className={styles.cardIdle}
+          <DataDigitCard className={`${styles.card} ${styles.cardIdle}`}
                          label="待机"
                          unit="台"
                          value={50} />
 
-          <DataDigitCard className={styles.cardMaintenance}
+          <DataDigitCard className={`${styles.card} ${styles.cardMaintenance}`}
                          label="保养"
                          unit="台"
                          value={50} />
 
-          <DataDigitCard className={styles.cardFixing}
+          <DataDigitCard className={`${styles.card} ${styles.cardFixing}`}
                          label="维修"
                          unit="台"
                          value={50} />
 
-          <DataDigitCard className={styles.cardChecking}
+          <DataDigitCard className={`${styles.card} ${styles.cardChecking}`}
                          label="点检"
                          unit="台"
                          value={50} />
 
-          <DataDigitCard className={styles.cardOee}
+          <DataDigitCard className={`${styles.card} ${styles.cardOee}`}
                          label="OEE"
                          unit="台"
                          value={50} />
