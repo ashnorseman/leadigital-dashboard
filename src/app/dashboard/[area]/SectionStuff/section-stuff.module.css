@@ -1,0 +1,11 @@
+.shiftMorning {
+  --label-color: #0073FF;
+}
+
+.shiftDay {
+  --label-color: #FFA700;
+}
+
+.shiftNight {
+  --label-color: #5EBE43;
+}

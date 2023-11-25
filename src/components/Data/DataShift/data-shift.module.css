@@ -1,0 +1,36 @@
+.shiftContainer {
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.shiftName {
+  background: var(--label-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 26px 0 0;
+  letter-spacing: .5em;
+  writing-mode: vertical-rl;
+}
+
+.shiftMainContainer {
+  flex: 1;
+  position: relative;
+}
+
+.shiftMain {
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  grid-gap: 5px 8px;
+  overflow: auto;
+  padding: 4px 8px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
