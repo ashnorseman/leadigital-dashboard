@@ -1,8 +1,8 @@
-
 .header {
   background: url(./header-bg.svg) left center no-repeat;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 34px;
   padding-left: 40px;
 }

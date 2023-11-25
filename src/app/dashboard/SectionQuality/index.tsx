@@ -2,12 +2,14 @@
 
 import * as echarts from "echarts";
 import Chart from "@/components/Chart";
+import Label from "@/components/Label";
 import PanelCorner from "@/components/Panel/PanelCorner";
 import PanelGroup from "@/components/Panel/PanelGroup";
 import PanelHeader from "@/components/Panel/PanelHeader";
 import SectionHeader from "@/components/SectionHeader";
 import Tab from "@/components/Tab";
 import { commonTab } from "../constants";
+import styles from "./section-quality.module.css";
 
 export default function SectionQuality() {
   const xAxis: echarts.EChartOption.XAxis = {
@@ -185,7 +187,9 @@ export default function SectionQuality() {
   return (
     <PanelCorner>
       <PanelGroup direction="column">
-        <PanelHeader title="品质绩效" />
+        <PanelHeader title="品质绩效">
+          <Label className={styles.label}>质量损失工时 66H</Label>
+        </PanelHeader>
 
         <SectionHeader>
           <h5 className="section-title">原材料/零部件送检合格率</h5>

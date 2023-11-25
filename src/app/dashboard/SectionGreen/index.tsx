@@ -3,6 +3,7 @@
 import * as echarts from "echarts";
 import Chart from "@/components/Chart";
 import DataDigitCard from "@/components/Data/DataDigitCard";
+import Label from "@/components/Label";
 import PanelCorner from "@/components/Panel/PanelCorner";
 import PanelGroup from "@/components/Panel/PanelGroup";
 import PanelHeader from "@/components/Panel/PanelHeader";
@@ -74,7 +75,14 @@ export default function SectionGreen() {
   return (
     <PanelCorner size={620}>
       <PanelGroup direction="column">
-        <PanelHeader title="绿色制造" />
+        <PanelHeader title="绿色制造">
+          <Label className={styles.label}>安全生产 68866天</Label>
+        </PanelHeader>
+
+        <div className={styles.consumptionContainer}>
+          万元产值综合能耗（吨标准煤/万元）
+          <span className={styles.consumptionValue}>0.01</span>
+        </div>
 
         <h5 className="section-title">设备管理</h5>
 
