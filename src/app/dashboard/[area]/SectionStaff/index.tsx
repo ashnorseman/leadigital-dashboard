@@ -4,9 +4,9 @@ import PanelCorner from "@/components/Panel/PanelCorner";
 import PanelGroup from "@/components/Panel/PanelGroup";
 import PanelHeader from "@/components/Panel/PanelHeader";
 import SummaryStaff from "../SummaryStaff";
-import styles from "./section-stuff.module.css";
+import styles from "./section-staff.module.css";
 
-export default function SectionStuff() {
+export default function SectionStaff() {
   const workers: DataShiftWorkerProps[] = new Array(15).fill(0).map(() => ({
     avatar: "/logo.png",
     name: "金大中",

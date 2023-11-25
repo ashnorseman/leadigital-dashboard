@@ -7,7 +7,7 @@ import SectionMaterial from "./SectionMaterial";
 import SectionProduction from "./SectionProduction";
 import SectionQualityManagement from "./SectionQualityManagement";
 import SectionSchedule from "./SectionSchedule";
-import SectionStuff from "./SectionStuff";
+import SectionStaff from "./SectionStaff";
 import styles from "./page.module.css";
 
 export default function Dashboard() {
@@ -24,15 +24,15 @@ export default function Dashboard() {
           <SectionAssets />
         </PanelGroup>
 
-        <PanelGroup direction="column">
+        <PanelGroup direction="column"
+                    size={718}>
           <SectionSchedule />
           <SectionAreaMap />
         </PanelGroup>
 
-        <PanelGroup direction="column"
-                    size={549}>
+        <PanelGroup direction="column">
           <SectionQualityManagement />
-          <SectionStuff />
+          <SectionStaff />
         </PanelGroup>
       </PanelGroup>
     </Container>

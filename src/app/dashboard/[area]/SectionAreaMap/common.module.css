@@ -1,0 +1,20 @@
+.equipment {
+  --label-color-top: #FF47C2;
+  --label-color-bottom: #FF7171;
+}
+
+.human-equipment {
+  --label-color-top: #3D9FFF;
+  --label-color-bottom: #027BF7;
+}
+
+.assembly {
+  --label-color-top: #99E859;
+  --label-color-bottom: #4FC49B;
+  --label-text: #294800;
+}
+
+.human {
+  --label-color-top: #7547FF;
+  --label-color-bottom: #1829AC;
+}

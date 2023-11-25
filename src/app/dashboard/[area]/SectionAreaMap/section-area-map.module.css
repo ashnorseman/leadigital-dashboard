@@ -1,0 +1,41 @@
+.container {
+  --border-container: #595959;
+
+  border: 3px solid var(--border-container);
+  height: 694px;
+  position: relative;
+  width: 930px;
+}
+
+.legendContainer {
+  border: 3.5px solid var(--border-container);
+  border-left-color: var(--page-bg);
+  border-top-color: var(--page-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 264px;
+  padding: 60px 42px;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 259px;
+}
+
+.warehouse {
+  background: rgba(0, 0, 0, .3);
+  color: rgba(255, 255, 255, .65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  height: 112px;
+  position: absolute;
+  left: 256px;
+  top: 0;
+  width: 560px;
+}
+
+.dashbaord {
+  margin-bottom: 8px;
+}
