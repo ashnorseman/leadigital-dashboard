@@ -17,10 +17,12 @@ export default function Dashboard() {
   return (
     <Container header={<Header title="智造一体化平台" />}
                height={1536}
-               width={2330}>
+               width={2300}>
       <PanelGroup className={styles.board}
-                  direction="column">
+                  direction="column"
+                  gap={15}>
         <PanelGroup direction="row"
+                    gap={15}
                     size={145}>
           <SummaryOutputValue />
           <SummaryOutput />
@@ -30,17 +32,20 @@ export default function Dashboard() {
 
         <PanelGroup direction="row">
           <PanelGroup direction="column"
+                      gap={15}
                       size={579}>
             <SectionDelivery />
             <SectionQuality />
           </PanelGroup>
 
-          <PanelGroup direction="column">
+          <PanelGroup direction="column"
+                      gap={15}>
             <SectionFloorPlan />
             <SectionProgress />
           </PanelGroup>
 
           <PanelGroup direction="column"
+                      gap={15}
                       size={579}>
             <SectionGreen />
             <SectionEfficiency />

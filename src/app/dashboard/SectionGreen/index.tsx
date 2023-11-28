@@ -73,7 +73,7 @@ export default function SectionGreen() {
   };
 
   return (
-    <PanelCorner size={620}>
+    <PanelCorner size={614}>
       <PanelGroup direction="column">
         <PanelHeader title="绿色制造">
           <Label className={styles.label}>安全生产 68866天</Label>

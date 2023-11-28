@@ -1,3 +1,7 @@
+.imagePanel {
+  padding: 0;
+}
+
 .imageContainer {
   height: 597px;
   margin: auto;

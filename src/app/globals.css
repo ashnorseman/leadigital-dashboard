@@ -54,3 +54,13 @@ a {
   border-bottom: 1px solid rgba(255, 255, 255, .35);
   height: 38px;
 }
+
+.data-table td,
+.data-table th {
+  padding-right: .75em;
+}
+
+.data-table td:first-child,
+.data-table th:first-child {
+  padding-left: .75em;
+}

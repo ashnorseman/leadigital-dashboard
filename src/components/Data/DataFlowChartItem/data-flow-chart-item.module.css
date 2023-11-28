@@ -1,0 +1,40 @@
+.item {
+  background: #0A125E;
+  border: 2px solid #FFF;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  position: absolute;
+  z-index: 10;
+  width: 30px;
+}
+
+.finished {
+  background: #5DCA8E;
+}
+
+.scheduled {
+  border-color: currentColor;
+  color: rgba(255, 255, 255, .65);
+}
+
+.delayed {
+  background: #FF4D4F;
+}
+
+.progress {
+  font-size: 10px;
+}
+
+.label {
+  font-size: 12px;
+  line-height: 14px;
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  text-align: center;
+  transform: translate3d(-50%, 0, 0);
+  width: 4em;
+}

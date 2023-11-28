@@ -1,0 +1,77 @@
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  grid-gap: 8px;
+  position: relative;
+  width: 820px;
+}
+
+.section {
+  border: 1px solid var(--label-color);
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectionDesign {
+  --label-color: #287555;
+
+  height: 100px;
+}
+
+.sectionPurchase {
+  --label-color: #7D6551;
+
+  height: 124px;
+}
+
+.sectionProduction {
+  --label-color: #2469B5;
+
+  flex: 1;
+}
+
+.label {
+  background: var(--label-color);
+  border-bottom-left-radius: 15px;
+  font-size: 14px;
+  line-height: 32px;
+  padding: 0 14px;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+}
+
+.arrows {
+  position: absolute;
+  left: 7px;
+  top: 44px;
+  z-index: 1;
+}
+
+.structureFrame {
+  background: #264D6C;
+  border: 1px solid #5DCA8E;
+  border-radius: 6px;
+  height: 70px;
+  position: absolute;
+  left: 132px;
+  top: 50%;
+  z-index: 2;
+  transform: translate3d(0, -50%, 0);
+  width: 468px;
+}
+
+.structureLabel {
+  background: rgba(93, 202, 142, .17);
+  letter-spacing: .25em;
+  line-height: 26px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  text-indent: .25em;
+  writing-mode: vertical-rl;
+}

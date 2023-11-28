@@ -5,7 +5,8 @@ import styles from "./section-floor-plan.module.css";
 
 export default function SectionFloorPlan() {
   return (
-    <PanelCorner size={620}>
+    <PanelCorner className={styles.imagePanel}
+                 size={614}>
       <div className={styles.imageContainer}>
         <div className={styles.linkLab}>
           <Link href="/dashboard/1">

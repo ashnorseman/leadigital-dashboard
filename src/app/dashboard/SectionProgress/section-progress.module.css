@@ -1,0 +1,12 @@
+.tableContainer {
+  border: 1px solid #2589FF;
+  border-radius: 6px;
+  flex: 1;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.rowActive {
+  background: #4454A5;
+  color: #3DE6FF;
+}
